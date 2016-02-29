@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-merger-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default merger for redux-storage",
   "main": "build/index.js",
   "jsnext:main": "src/index.js",
