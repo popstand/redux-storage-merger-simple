@@ -13,6 +13,15 @@ Simple and current default merger for [redux-storage][].
 ## Installation
 
     npm install --save redux-storage-merger-simple
+    
+## Usage
+
+Custom mergers, like this one, can simply be passed as second argument to [redux-storage][]s `reducer`:
+
+```js
+import merger from 'redux-storage-merger-simple';
+const reducer = storage.reducer(reducer, merger);
+```
 
 ## License
 
