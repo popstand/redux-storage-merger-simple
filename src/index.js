@@ -1,4 +1,3 @@
-import isArray from 'lodash.isarray';
 import isObject from 'lodash.isobject';
 import merge from 'lodash.merge';
 
@@ -13,7 +12,7 @@ export default (oldState, newState) => {
 
         // Assign if we don't need to merge at all
         if (!result.hasOwnProperty(key)) {
-            result[key] = isObject(value) && !isArray(value)
+            result[key] = isObject(value) && !Array.isArray(value)
                 ? merge({}, value)
                 : value;
             continue;
@@ -21,7 +20,7 @@ export default (oldState, newState) => {
 
         const oldValue = result[key];
 
-        if (isObject(value) && !isArray(value)) {
+        if (isObject(value) && !Array.isArray(value)) {
             result[key] = merge({}, oldValue, value);
         } else {
             result[key] = value;
