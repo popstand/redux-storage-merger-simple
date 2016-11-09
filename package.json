@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelcontento/redux-storage-merger-simple.git"
+    "url": "https://github.com/guns2410/redux-storage-merger-simple.git"
   },
-  "homepage": "https://github.com/michaelcontento/redux-storage-merger-simple",
+  "homepage": "https://github.com/guns2410/redux-storage-merger-simple",
   "keywords": [
     "redux",
     "redux-storage",
     "redux-storage-merger"
   ],
-  "author": "Michael Contento <michaelcontento@gmail.com>",
+  "author": "Guns <gunjan.soni2002@gmail.com>",
   "files": [
     "build/",
     "src",
