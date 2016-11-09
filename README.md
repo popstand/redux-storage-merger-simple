@@ -10,10 +10,6 @@
 
 Simple and current default merger for [redux-storage][].
 
-# A fork of [michaelcontento/redux-storage-merger-simple](https://github.com/michaelcontento/redux-storage-merger-simple)
-
-The original author of the package [redux-storage-merger-simple](https://github.com/michaelcontento/redux-storage-merger-simple) has decided to deprecate the project and no longer maintain. The package will now be maintained here.
-
 ## Installation
 
     npm install --save redux-storage-merger-simple
@@ -27,11 +23,17 @@ import merger from 'redux-storage-merger-simple';
 const reducer = storage.reducer(reducer, merger);
 ```
 
+# A fork of [redux-storage-merger-simple](https://github.com/michaelcontento/redux-storage-merger-simple)
+
+The original author of the package [redux-storage-merger-simple](https://github.com/michaelcontento/redux-storage-merger-simple) has decided to deprecate the project and no longer maintained. The package will now be maintained here.
+
+Thank you [michaelcontento](https://github.com/michaelcontento) for a great library!
+
 ## License
 
     The MIT License (MIT)
 
-    Copyright (c) 2016 Michael Contento
+    Copyright (c) 2016 Gunjan Soni
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
@@ -50,5 +52,5 @@ const reducer = storage.reducer(reducer, merger);
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  [redux-storage]: https://github.com/michaelcontento/redux-storage
-  [redux-storage-merger-simple]: https://github.com/michaelcontento/redux-storage-merger-simple
+  [redux-storage]: https://github.com/guns2410/redux-storage
+  [redux-storage-merger-simple]: https://github.com/guns2410/redux-storage-merger-simple
