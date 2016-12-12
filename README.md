@@ -1,8 +1,8 @@
 # [redux-storage-merger-simple][]
 
-[![build](https://travis-ci.org/michaelcontento/redux-storage-merger-simple.svg?branch=master)](https://travis-ci.org/michaelcontento/redux-storage-merger-simple)
-[![dependencies](https://david-dm.org/michaelcontento/redux-storage-merger-simple.svg)](https://david-dm.org/michaelcontento/redux-storage-merger-simple)
-[![devDependencies](https://david-dm.org/michaelcontento/redux-storage-merger-simple/dev-status.svg)](https://david-dm.org/michaelcontento/redux-storage-merger-simple#info=devDependencies)
+[![build](https://travis-ci.org/react-stack/redux-storage-merger-simple.svg?branch=master)](https://travis-ci.org/react-stack/redux-storage-merger-simple)
+[![dependencies](https://david-dm.org/react-stack/redux-storage-merger-simple.svg)](https://david-dm.org/react-stack/redux-storage-merger-simple)
+[![devDependencies](https://david-dm.org/react-stack/redux-storage-merger-simple/dev-status.svg)](https://david-dm.org/react-stack/redux-storage-merger-simple#info=devDependencies)
 
 [![license](https://img.shields.io/npm/l/redux-storage-merger-simple.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-merger-simple)
 [![npm version](https://img.shields.io/npm/v/redux-storage-merger-simple.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-merger-simple)
