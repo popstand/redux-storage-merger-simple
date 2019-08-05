@@ -36,12 +36,9 @@
     "babel-preset-modern-node": "^2.1.0",
     "babel-preset-stage-2": "^6.5.0",
     "eslint": "^1.10.3",
-    "eslint-config-michaelcontento": "^1.1.1",
-    "eslint-plugin-mocha-only": "0.0.3",
-    "mocca": "^1.0.3",
-    "release-it": "^2.3.1"
+    "eslint-plugin-mocha-only": "0.0.3"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   }
 }
